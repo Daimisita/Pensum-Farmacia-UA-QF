@@ -86,7 +86,7 @@ const semestres = [
     ]
   },
   { nombre: "Décimo Semestre", materias: [
-      { id: "practicas", nombre: "Prácticas Académicas" },requiere:["all"] },
+      { id: "practicas", nombre: "Prácticas Académicas" },
       { id: "trabajo_grado", nombre: "Trabajo de Grado", requiere:["diseno_proyecto"] },
       { id: "electiva7", nombre: "Electiva Profundización VII", requiere:["electiva6"] },
       { id: "electiva8", nombre: "Electiva Profundización VIII", requiere:["electiva6"] },
